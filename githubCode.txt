@@ -1,0 +1,14 @@
+github常用命令汇总
+1.git init 表示在当前的项目目录中生成本地的git管理
+2.git add README.md 将“README.md”文件保存至缓存区
+3.git commit -m "xxxxx" 将代码从缓存区保存至本地仓库
+4.git remote add origin https://github.com/xxx.git将本地仓库与指定的远程仓库创建联系
+5.push -u origin master 将本地仓库代码推送至远程仓库
+6.git clone https://github.com/xxx.Git 创建本地副本
+7.git branch mybranch --创建branch
+8.git checkout mybranch–跳转branch
+9.git checkout -b mybranch–创建跳转branch
+10.git rebase master --更新master的东西到此branch
+11.获取指定文件
+git fetch
+git checkout origin/master – path/folder/filename
